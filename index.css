@@ -90,11 +90,12 @@ a:hover{
     color: rgb(81, 79, 79);
 }
 
-.card_1 {
+.card_1, .card_2, .card_3, .card_4 {
     border-radius:170px;
     width:230px;
+    margin-right: 20px;
 }
-.card_1 h4{
+.card_1 h4, .card_2 h4, .card_3 h4, .card_4 h4{
     background-color: rgb(246, 243, 243);
     margin-top: 0px;
     line-height:35px;
@@ -103,54 +104,8 @@ a:hover{
     font-size: 15px;
     width: 221px;
 }
-
-.card_2 {
-    border-radius:170px;
-    width:230px;
-    margin-left: 20px;
-}
-
-.card_2 h4{
-    background-color: rgb(246, 243, 243);
-    margin-top: 0;
-    line-height:35px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    width: 221px;
-}
-
-.card_3 {
-    border-radius:170px;
-    width:230px;
-    margin-left: 20px;
-}
-
-.card_3 h4{
-    background-color: rgb(246, 243, 243);
-    margin-top: 0px;
-    line-height:35px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    width: 221px;
-}
-
-.card_4 {
-    border-radius:170px;
-    width:230px;
-    margin-left: 20px;
-
-}
-
-.card_4 h4{
-    background-color: rgb(246, 243, 243);
-    margin-top: 0px;
-    line-height:35px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    width: 221px;
+.card_1:hover, .card_2:hover, .card_3:hover, .card_4:hover {
+    transform: scale3d(1.05,1.05,1);
 }
 
 .cards {
