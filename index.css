@@ -75,9 +75,89 @@ a:hover{
 .container_1 img{
     margin-left:40px;
 }
-  
-  
-  
+
+.container_2 h2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31%;
+    line-height: 32px;
+    color:rgb(39, 40, 40) ;
+}
+.container_2 p {
+    margin-left: 27%;
+    font-size:17px;
+    margin-top:10px;
+    color: rgb(81, 79, 79);
+}
+
+.card_1 {
+    border-radius:170px;
+    width:230px;
+}
+.card_1 h4{
+    background-color: rgb(246, 243, 243);
+    margin-top: 0px;
+    line-height:35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 221px;
+}
+
+.card_2 {
+    border-radius:170px;
+    width:230px;
+    margin-left: 20px;
+}
+
+.card_2 h4{
+    background-color: rgb(246, 243, 243);
+    margin-top: 0;
+    line-height:35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 221px;
+}
+
+.card_3 {
+    border-radius:170px;
+    width:230px;
+    margin-left: 20px;
+}
+
+.card_3 h4{
+    background-color: rgb(246, 243, 243);
+    margin-top: 0px;
+    line-height:35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 221px;
+}
+
+.card_4 {
+    border-radius:170px;
+    width:230px;
+    margin-left: 20px;
+
+}
+
+.card_4 h4{
+    background-color: rgb(246, 243, 243);
+    margin-top: 0px;
+    line-height:35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 221px;
+}
+
+.cards {
+    display:inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
   
   
   
