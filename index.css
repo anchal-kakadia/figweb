@@ -33,6 +33,48 @@ a:hover{
 .nav_bar img:hover{
     filter: brightness(95%);
   }
+.container_1{
+    display: inline-flex;
+    margin-top: 30px;
+}
+.content h1 {
+    width:380px;
+    font-size: 38px;
+    line-height: 45px; 
+    color:rgb(39, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    font-size:15px;
+    width:290px;
+    line-height:20px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 103, 103);
+}
+.content button{
+    background-color:rgb(224,47,89) ;
+    border-color: rgb(224,47,89);
+    color: white;
+    text-align: center;
+    border-radius:170px;
+    width:231.1px;
+    height:55.46px;
+    box-shadow: 0 20px 20px -15px rgba(144,40,64,.5);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.content button:hover {
+    transform:translate3d(0px,-4px,0px) scale3d(1,1,1);
+    transform-style: preserve-3d;
+    background-color:deeppink ;
+}
+
+.container_1 img{
+    margin-left:40px;
+}
   
   
   
